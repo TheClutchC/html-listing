@@ -6,3 +6,14 @@ actual=Max-13
 let percentage
 percentage=actual/Max
 console.log(percentage);
+let message
+message="hello"
+message=123456
+console.log(message)
+let n=123
+n=12.345
+console.log(n)
+const bigInt = 1234567890123456789012345678901234567890n;
+let name
+name="John"
+phrase=`can embed another ${name}!`
