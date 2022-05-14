@@ -24,3 +24,5 @@ const string='The revolution will not be televised.'
 console.log(string)
 const badString=string;
 console.log(badString)
+const bigMouth='I\'ve got no right to take my place...'
+console.log(bigMouth)
