@@ -16,4 +16,7 @@ console.log(n)
 const bigInt = 1234567890123456789012345678901234567890n;
 let name
 name="John"
-phrase=`can embed another ${name}!`
+phrase=`can embed another ${1+2}!`
+let isGreater=4>1
+let age
+alert(age)
