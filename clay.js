@@ -14,8 +14,6 @@ let n=123
 n=12.345
 console.log(n)
 const bigInt = 1234567890123456789012345678901234567890n;
-let name
-name="John"
 phrase=`can embed another ${1+2}!`
 let isGreater=4>1
 let age
@@ -26,3 +24,10 @@ const badString=string;
 console.log(badString)
 const bigMouth='I\'ve got no right to take my place...'
 console.log(bigMouth)
+const name= 'Chris';
+const greeting= `Hello, ${"name"}`
+console.log(greeting)
+const one='Hello,';
+const two='how are you?';
+const joined=`${one}${two}`;
+console.log(joined)
