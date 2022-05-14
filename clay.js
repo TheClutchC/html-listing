@@ -19,4 +19,8 @@ name="John"
 phrase=`can embed another ${1+2}!`
 let isGreater=4>1
 let age
-alert(age)
+typeof x
+const string='The revolution will not be televised.'
+console.log(string)
+const badString=string;
+console.log(badString)
