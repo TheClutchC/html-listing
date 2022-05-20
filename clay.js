@@ -27,7 +27,11 @@ console.log(bigMouth)
 const name= 'Chris';
 const greeting= `Hello, ${"name"}`
 console.log(greeting)
-const one='Hello,';
+const one='Hello, ';
 const two='how are you?';
 const joined=`${one}${two}`;
 console.log(joined)
+const three='Hola, ';
+const four='como estas?';
+const together=`${three}${four}${" Here is Johnny"}`
+console.log(together)
