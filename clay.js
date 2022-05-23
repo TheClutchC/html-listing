@@ -35,3 +35,12 @@ const three='Hola, ';
 const four='como estas?';
 const together=`${three}${four}${" Here is Johnny"}`
 console.log(together)
+alert(2>1)
+alert(2==1)
+alert(2!=1)
+let result=5>4;
+alert(result)
+alert('Z'>'A')
+if (hour>18) {
+    greeting= "Good day";
+}
