@@ -36,7 +36,13 @@ const four='como estas?';
 const together=`${three}${four}${" Here is Johnny"}`;
 console.log(together);
 let result=5>4;
-var first=prompt("enter first number");
+
+/*var first=prompt("enter first number");
 var second=prompt("enter second number");
 var sum=Number(first) + Number(second);
-alert("The sum is: " + sum + "!");
+alert("The sum is: " + sum + "!");*/
+
+var firstName=prompt("First Name");
+var lastName=prompt("Last Name");
+var sum= firstName + " " + lastName;
+alert("Hello " + sum + "!");
