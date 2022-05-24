@@ -37,37 +37,75 @@ const together=`${three}${four}${" Here is Johnny"}`;
 console.log(together);
 let result=5>4;
 
+
 /*----------Addition Calculator---------*/
 
-/*var first=prompt("enter first number");
+
+/*
+var first=prompt("enter first number");
 var second=prompt("enter second number");
 var sum=Number(first) + Number(second);
-alert("The sum is: " + sum + "!");*/
+alert("The sum is: " + sum + "!");
+if (sum=69) {
+    alert("Hehehe.....69");
+}
+*/
+
 
 /*----------Name Collector-------------*/
 
-/*var firstName=prompt("First Name");
+
+/*
+var firstName=prompt("First Name");
 var lastName=prompt("Last Name");
 var sum= firstName + " " + lastName;
-alert("Hello " + sum + "!");*/
+alert("Hiya there " + sum + "!");
+if (firstName === "Billy") {
+    alert("Bye Bye Billy!");
+}
+if (!(firstName === "Billy")) {
+    alert("You're not Billy!");
+}
+*/
+
 
 /*----------Subtraction Calculator-----*/
 
-/*var first=prompt("enter first number");
+
+/*
+var first=prompt("enter first number");
 var second=prompt("enter second number");
 var sum=Number(first) - Number(second);
-alert("The sum is: " + sum + "!");*/
+alert("The sum is: " + sum + "!");
+if (sum=69) {
+    alert("Hehehe.....69");
+}
+*/
+
 
 /*----------Multiplication Calculator--*/
 
-/*var first=prompt("enter first number");
+
+/*
+var first=prompt("enter first number");
 var second=prompt("enter second number");
 var sum=Number(first) * Number(second);
-alert("The sum is: " + sum + "!");*/
+alert("The sum is: " + sum + "!");
+if (sum=69) {
+    alert("Hehehe.....69");
+}
+*/
+
 
 /*----------Division Calculator--------*/
 
-/*var first=prompt("enter first number");
+
+/*
+var first=prompt("enter first number");
 var second=prompt("enter second number");
 var sum=Number(first) / Number(second);
-alert("The sum is: " + sum + "!");*/
+alert("The sum is: " + sum + "!");
+if (sum=69) {
+    alert("Hehehe.....69");
+}
+*/
