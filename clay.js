@@ -16,7 +16,6 @@ console.log(n);
 const bigInt = 1234567890123456789012345678901234567890n;
 phrase=`can embed another ${1+2}!`;
 let isGreater=4>1;
-let age;
 typeof x;
 const string='The revolution will not be televised.';
 console.log(string);
@@ -36,6 +35,17 @@ const four='como estas?';
 const together=`${three}${four}${" Here is Johnny"}`;
 console.log(together);
 let result=5>4;
+
+function multiply(a,b) {
+    if (a >10 || b>10) {
+        return "that's too hard"
+    }
+    else {
+        return a*b
+    }
+    return a*b;
+}
+
 
 
 /*----------Addition Calculator---------*/
@@ -108,4 +118,26 @@ alert("The sum is: " + sum + "!");
 if (sum=69) {
     alert("Hehehe.....69");
 }
+*/
+
+
+/*----------Keyless Car--------------*/
+
+
+/*
+var age=prompt("Please enter your age");
+if (age>"18") {
+    alert("Powering On. Enjoy the ride!");
+}
+
+if (age==="18") {
+    alert("Congratulations on your first year of driving. Enjoy the ride!");
+}
+if (age<"18") {
+    alert("Sorry, you are too young to drive this car. Powering off!");
+}
+*/
+
+/*
+
 */
