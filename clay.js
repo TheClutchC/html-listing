@@ -36,16 +36,16 @@ const together=`${three}${four}${" Here is Johnny"}`;
 console.log(together);
 let result=5>4;
 
+/*
 function multiply(a,b) {
     if (a >10 || b>10) {
-        return "that's too hard"
+        return "that's too hard";
     }
     else {
-        return a*b
+        return a*b;
     }
-    return a*b;
 }
-
+*/
 
 
 /*----------Addition Calculator---------*/
@@ -126,6 +126,7 @@ if (sum=69) {
 
 /*
 var age=prompt("Please enter your age");
+
 if (age>"18") {
     alert("Powering On. Enjoy the ride!");
 }
@@ -133,11 +134,65 @@ if (age>"18") {
 if (age==="18") {
     alert("Congratulations on your first year of driving. Enjoy the ride!");
 }
+
 if (age<"18") {
     alert("Sorry, you are too young to drive this car. Powering off!");
 }
 */
 
-/*
 
+/*----------Keyless Car 2.0----------*/
+
+
+/*
+function checkDriverAge () {
+    var age = prompt("What is your age?");
+    if (Number(age) < 18) {
+	    alert("Sorry, you are too yound to drive this car. Powering off");
+    } 
+    else if (Number(age) > 18) {
+	    alert("Powering On. Enjoy the ride!");
+    } 
+    else if (Number(age) === 18) {
+	    alert("Congratulations on your first year of driving. Enjoy the ride!");
+    }
+}
+*/
+
+
+/*----------Keyless Car 2.1----------*/
+
+
+/*
+var checkDriverAge2 = function() {
+    var age = prompt("What is your age?");
+    if (Number(age) < 18) {
+	    alert("Sorry, you are too yound to drive this car. Powering off");
+    } 
+    else if (Number(age) > 18) {
+	    alert("Powering On. Enjoy the ride!");
+    } 
+    else if (Number(age) === 18) {
+	    alert("Congratulations on your first year of driving. Enjoy the ride!");
+    }
+}
+*/
+
+
+/*----------Keyless Car 2.2----------*/
+
+
+/*
+function checkDriverAge(age) {
+    var age = prompt("What is your age?");
+    if (Number(age) < 18) {
+	    alert("Sorry, you are too yound to drive this car. Powering off");
+    } 
+    else if (Number(age) > 18) {
+	    alert("Powering On. Enjoy the ride!");
+    } 
+    else if (Number(age) === 18) {
+	    alert("Congratulations on your first year of driving. Enjoy the ride!");
+    }
+}
 */
