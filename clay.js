@@ -145,18 +145,20 @@ if (age<"18") {
 
 
 /*
-function checkDriverAge () {
     var age = prompt("What is your age?");
+    console.log(Number(age))
     if (Number(age) < 18) {
-	    alert("Sorry, you are too yound to drive this car. Powering off");
+	    alert("Sorry, you are too young to drive this car. Powering off");
     } 
+    if (isNaN(age)) {
+	    alert("Sorry, you are too young to drive this car. Powering off");
+    }
     else if (Number(age) > 18) {
 	    alert("Powering On. Enjoy the ride!");
     } 
     else if (Number(age) === 18) {
 	    alert("Congratulations on your first year of driving. Enjoy the ride!");
     }
-}
 */
 
 
@@ -167,7 +169,7 @@ function checkDriverAge () {
 var checkDriverAge2 = function() {
     var age = prompt("What is your age?");
     if (Number(age) < 18) {
-	    alert("Sorry, you are too yound to drive this car. Powering off");
+	    alert("Sorry, you are too young to drive this car. Powering off");
     } 
     else if (Number(age) > 18) {
 	    alert("Powering On. Enjoy the ride!");
@@ -186,7 +188,7 @@ var checkDriverAge2 = function() {
 function checkDriverAge(age) {
     var age = prompt("What is your age?");
     if (Number(age) < 18) {
-	    alert("Sorry, you are too yound to drive this car. Powering off");
+	    alert("Sorry, you are too young to drive this car. Powering off");
     } 
     else if (Number(age) > 18) {
 	    alert("Powering On. Enjoy the ride!");
@@ -195,4 +197,12 @@ function checkDriverAge(age) {
 	    alert("Congratulations on your first year of driving. Enjoy the ride!");
     }
 }
+*/
+
+
+/*------------Arrays Practice--------*/
+
+
+/*
+var array= ["Banana","Apple","Orange","Blueberry"]
 */
