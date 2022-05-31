@@ -14,50 +14,50 @@
     </menu>
   </div>
   <div class="form-container">
-    <form>
+    <form method="get">
       
       <div>First Name:
-        <input type="text">
+        <input type="text" name="firstname">
       </div>
 
       <div>Last Name:
-        <input type="text">
+        <input type="text" name="lastname">
       </div>
 
       <div>Email:
-        <input type="email" required>
+        <input type="email" required name="email">
       </div>
 
       <div>Password:
-        <input type="password" minlength="5">
+        <input type="password" minlength="5" name="password">
       </div>
 
       <div>Birthday:
-        <input type="date">
+        <input type="date" name="birthday">
       </div>
 
       <div>Gender: 
-        <input type="radio" name="gender">Male
-        <input type="radio" name="gender">Female
-        <input type="radio" name="gender">Other
-        <input type="radio" name="gender">Unspecified
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Other">Other
+        <input type="radio" name="gender" value="Unspecified">Unspecified
       </div>
 
       <div>Pets: 
-        <input type="checkbox">Cat
-        <input type="checkbox">Lizard
-        <input type="checkbox">Unicorn
-        <input type="checkbox">No really, a unicorn
+        <input type="checkbox" name="cat" value="Cat">Cat
+        <input type="checkbox" name="lizard" value="Lizard">Lizard
+        <input type="checkbox" name="unicorn" value="Unicorn">Unicorn
+        <input type="checkbox" name="noreallyaunicorn" value="No really, a unicorn">No really, a unicorn
       </div>
 
       <div>Cars:
-        <select>
-          <option value="Ford Ranger">Ford Ranger</option>
-          <option value="Hyundai Ioniq">Hyundai Ioniq</option>
-          <option value="Honda Civic">Honda Civic</option>
-          <option value="Jeep Wrangler">Jeep Wrangler</option>
-          <option value="Nissan Frontier">Nissan Frontier</option>
-          <option value="Toyota Prius">Toyota Prius</option>
+        <select name="cars">
+          <option value="Ford Ranger" name="fordranger">Ford Ranger</option>
+          <option value="Hyundai Ioniq" name="hyundaiioniq">Hyundai Ioniq</option>
+          <option value="Honda Civic" name="hondacivic">Honda Civic</option>
+          <option value="Jeep Wrangler" name="jeepwrangler">Jeep Wrangler</option>
+          <option value="Nissan Frontier" name="nissanfrontier">Nissan Frontier</option>
+          <option value="Toyota Prius" name="toyotaprius">Toyota Prius</option>
         </select>
       </div>
 
