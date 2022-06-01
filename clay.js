@@ -223,6 +223,7 @@ let list=["blue", "green", "yellow", "pink"];
 
 /*------------Build a Simple Facebook---------*/
 
+/*
 let database=[
     {
         username:"clay",
@@ -253,3 +254,40 @@ function signIn(user,pass) {
 }
 
 signIn(userNamePrompt,passwordPrompt);
+*/
+
+//function declaration
+function newFunction() {
+
+}
+
+//function expression
+let newFunction= function nameFunction() {
+
+};
+
+//expression
+1+3;
+var a=2;
+return true;
+
+//calling or invoking a function
+alert()
+newFunction(param1,param2)
+
+//assign a variable
+let a=true;
+
+//function vs method
+function thisIsAFunction() {
+
+}
+
+let obj= {
+    thisIsAMethod: function() {
+
+    }
+}
+
+thisIsAFunction()
+obj.thisIsAMethod()
