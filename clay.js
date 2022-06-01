@@ -256,6 +256,7 @@ function signIn(user,pass) {
 signIn(userNamePrompt,passwordPrompt);
 */
 
+/*
 //function declaration
 function newFunction() {
 
@@ -291,3 +292,26 @@ let obj= {
 
 thisIsAFunction()
 obj.thisIsAMethod()
+*/
+
+let todos= [
+    "clean room",
+    "brush teeth",
+    "exercise",
+    "study javascript",
+    "eat healthy",
+];
+
+
+let todosLength=todos.length
+for (let i=0; i<todosLength; i++) {
+    //console.log(todos[i] + "!");    /*This adds ! to todos list */
+    //todos[i]=todos[i] + "!";    /*This now tells it to equal, i.e., i=0("clean room") and add an exclamation point(!) to the end of it. And to repeat this for all available list items */
+    todos.pop();
+}
+
+let counterOne=0;
+while (counterOne<10) {
+    console.log(counterOne);
+    counterOne++
+}
