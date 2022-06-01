@@ -206,3 +206,10 @@ function checkDriverAge(age) {
 /*
 var array= ["Banana","Apple","Orange","Blueberry"]
 */
+
+let user={
+    name:"John",
+    age: 34,
+    hobby: "Soccer",
+    isMarried: false,
+}
