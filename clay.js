@@ -1,3 +1,4 @@
+/*
 console.log("Hello World");
 console.log("Hola Terra!");
 const Max="57";
@@ -35,6 +36,7 @@ const four='como estas?';
 const together=`${three}${four}${" Here is Johnny"}`;
 console.log(together);
 let result=5>4;
+*/
 
 /*
 function multiply(a,b) {
@@ -207,6 +209,7 @@ function checkDriverAge(age) {
 var array= ["Banana","Apple","Orange","Blueberry"]
 */
 
+/*
 let user={
     name:"John",
     age: 34,
@@ -215,3 +218,38 @@ let user={
 };
 
 let list=["blue", "green", "yellow", "pink"];
+*/
+
+
+/*------------Build a Simple Facebook---------*/
+
+let database=[
+    {
+        username:"clay",
+        password:"supersecret"
+    }
+];
+
+let newsFeed=[
+    {
+        username:"Bobby",
+        timeline:"So tired from all that learning!"
+    },
+    {
+        username:"Sally",
+        timeline:"Javascript is sooooo cool!"
+    }
+]
+
+let userNamePrompt=prompt("What's your username?");
+let passwordPrompt=prompt("What's your password?");
+
+function signIn(user,pass) {
+    if(user===database[0].username && pass===database[0].password) {
+        console.log(newsFeed);
+    } else{
+        alert("Sorry, wrong username and password");
+    }
+}
+
+signIn(userNamePrompt,passwordPrompt);
