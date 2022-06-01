@@ -212,4 +212,6 @@ let user={
     age: 34,
     hobby: "Soccer",
     isMarried: false,
-}
+};
+
+let list=["blue", "green", "yellow", "pink"];
