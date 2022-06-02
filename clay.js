@@ -305,13 +305,24 @@ let todos= [
 
 let todosLength=todos.length
 for (let i=0; i<todosLength; i++) {
+    console.log(i);
     //console.log(todos[i] + "!");    /*This adds ! to todos list */
     //todos[i]=todos[i] + "!";    /*This now tells it to equal, i.e., i=0("clean room") and add an exclamation point(!) to the end of it. And to repeat this for all available list items */
-    todos.pop();
+    //todos.pop();
 }
 
-let counterOne=0;
-while (counterOne<10) {
-    console.log(counterOne);
-    counterOne++
-}
+//  let counterOne=10;
+//  while (counterOne>10) {
+//      console.log("while", counterOne);
+//    counterOne--;
+//  }                               //This is a while loop
+
+// let counterTwo=10
+// do {
+//     console.log("do while", counterTwo);
+//     counterTwo--;
+// } while (counterTwo>10);         //This is a do while loop
+
+todos.forEach(function(i) {
+    console.log(i);
+})                                  //This a forEach loop
