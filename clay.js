@@ -294,22 +294,22 @@ thisIsAFunction()
 obj.thisIsAMethod()
 */
 
-let todos= [
-    "clean room",
-    "brush teeth",
-    "exercise",
-    "study javascript",
-    "eat healthy",
-];
+// let todos= [
+//     "clean room",
+//     "brush teeth",
+//     "exercise",
+//     "study javascript",
+//     "eat healthy",
+// ];
 
 
-let todosLength=todos.length
-for (let i=0; i<todosLength; i++) {
-    console.log(i);
+// let todosLength=todos.length
+// for (let i=0; i<todosLength; i++) {
+//     console.log(i);
     //console.log(todos[i] + "!");    /*This adds ! to todos list */
     //todos[i]=todos[i] + "!";    /*This now tells it to equal, i.e., i=0("clean room") and add an exclamation point(!) to the end of it. And to repeat this for all available list items */
     //todos.pop();
-}
+//}
 
 //  let counterOne=10;
 //  while (counterOne>10) {
@@ -323,6 +323,30 @@ for (let i=0; i<todosLength; i++) {
 //     counterTwo--;
 // } while (counterTwo>10);         //This is a do while loop
 
-todos.forEach(function(i) {
-    console.log(i);
-})                                  //This a forEach loop
+// todos.forEach(function(i) {
+//     console.log(i);
+// })                                  //This a forEach loop
+
+let button=document.getElementById("enter");
+let input=document.getElementById("userinput");
+let ul=document.querySelector("ul");
+
+button.addEventListener("click", function() {
+    if (input.value.length>0) { 
+        console.log(input);
+        let li=document.createElement("li");
+        li.appendChild(document.createTextNode(input.value));
+        ul.appendChild(li);
+        input.value="EWWWW...";
+    }
+})
+
+input.addEventListener("keypress", function() {
+    if (input.value.length>0 && event.keyCode===13) { 
+        console.log(input.value);
+        let li=document.createElement("li");
+        li.appendChild(document.createTextNode(input.value));
+        ul.appendChild(li);
+        input.value="";
+    }
+})
