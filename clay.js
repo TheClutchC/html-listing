@@ -327,26 +327,76 @@ obj.thisIsAMethod()
 //     console.log(i);
 // })                                  //This a forEach loop
 
-let button=document.getElementById("enter");
-let input=document.getElementById("userinput");
-let ul=document.querySelector("ul");
+// let button=document.getElementById("enter");
+// let input=document.getElementById("userinput");
+// let ul=document.querySelector("ul");
 
-button.addEventListener("click", function() {
-    if (input.value.length>0) { 
-        console.log(input);
-        let li=document.createElement("li");
-        li.appendChild(document.createTextNode(input.value));
-        ul.appendChild(li);
-        input.value="EWWWW...";
-    }
-})
+// button.addEventListener("click", function() {
+//     if (input.value.length>0) { 
+//         console.log(input);
+//         let li=document.createElement("li");
+//         li.appendChild(document.createTextNode(input.value));
+//         ul.appendChild(li);
+//         input.value="EWWWW...";
+//     }
+// })
 
-input.addEventListener("keypress", function() {
-    if (input.value.length>0 && event.keyCode===13) { 
-        console.log(input.value);
-        let li=document.createElement("li");
-        li.appendChild(document.createTextNode(input.value));
-        ul.appendChild(li);
-        input.value="";
-    }
-})
+// input.addEventListener("keypress", function() {
+//     if (input.value.length>0 && event.keyCode===13) { 
+//         console.log(input.value);
+//         let li=document.createElement("li");
+//         li.appendChild(document.createTextNode(input.value));
+//         ul.appendChild(li);
+//         input.value="";
+//     }
+// })
+
+
+function fizzBuzz(n) {
+    if(n.length==undefined && Number.isInteger(n)){
+        if(n%3===0 && n%5===0){
+            console.log("fizzbuzz")
+        } else if(n%3===0){
+            console.log("fizz")
+        } else if(n%5===0){
+            console.log("buzz")
+        } else{
+            console.log(n)
+        }
+    } else if(n.length>=1 && Array.isArray(n)){
+        console.log("I am here")
+        n.forEach(item => {
+            if(Number.isInteger(item)){
+                if(item%3===0 && item%5===0){
+                    console.log("fizzbuzz")
+                } else if(item%3===0){
+                    console.log("fizz")
+                } else if(item%5===0){
+                    console.log("buzz")
+                } else{
+                    console.log(item)
+                }
+            }
+        });
+        console.log("I am an array and a number!")
+    } else{ 
+       console.log("Sorry, input must be a number.")
+   }
+}
+
+
+// let array=[1,2,3,4,5]
+// for (i=array.length; i<=100; i++) {
+//     if (i%15 === 0) {
+//     console.log ("FizzBuzz");
+// }       
+//     else if (i%3 === 0) {
+//     console.log ("Fizz"); 
+// }
+//     else if (i%5 === 0) {
+//     console.log("Buzz");
+// }
+            
+//     else {
+//     console.log(i);
+// }};   
